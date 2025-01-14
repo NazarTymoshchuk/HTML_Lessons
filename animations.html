@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* @keyframes boxRight {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(300px);
+            }
+        } */
+
+
+        @keyframes boxRight {
+            0% {
+                transform: translateX(-100px);
+            }
+
+            100% {
+                transform: translateX(100vw);
+            }
+        }
+
+
+        .box {
+            height: 100px;
+
+            font-size: 25px;
+
+            animation: boxRight 7s linear infinite;
+
+            /* animation-name: boxRight;
+
+            animation-duration: 2s;
+
+            animation-timing-function: ease-in-out;
+
+            animation-iteration-count: infinite;
+
+            animation-delay: 2s; */
+
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+h2, h3, h4, h5, h6 {
+    color: rgb(15, 136, 136);
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: circle;
+    /* list-style-image: url("https://png.pngtree.com/png-vector/20190724/ourmid/pngtree-true-sign-png-png-image_1589429.jpg"); */
+    list-style-position: inside;
+
+    /* list-style: circle inside url(./images/a6a3dd9a9a738ec4b572f4fc04424782.jpg); */
+}
+
+ol>li {
+    background-color: coral;
+    color: white;
+
+    padding: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul>li {
+    background-color: rgb(89, 205, 139);
+    color: white;
+
+    padding: 10px 20px 30px 25px;
+
+    margin: 15px 5px;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+div {
+    background-color: blueviolet;
+}
+
+* {
+    color:rgb(15, 136, 136);
+}
+
+#test1 {
+    color: black;
+}
+
+.test {
+    color:rgb(89, 205, 139);
+}
+
+
+.test>p {
+    color: white;
+}
